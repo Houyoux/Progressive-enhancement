@@ -1,0 +1,84 @@
+
+
+
+body{
+    margin: 5% 0;
+    width: 90%; 
+    background-position: bottom 50px right 100px;
+    background: url(chef-logo-vintage-emblem-cooking-600w-1778876054.webp) center/cover
+    
+    
+   
+}
+
+p{
+    font-family: serif;
+    font-size: medium;
+    color: darkred;
+    
+}
+
+li{
+    color:darkred
+}
+
+table{ 
+    text-align: center
+}
+
+th,td{
+    border: 1px solid black;
+    color: black;
+    padding: 10px;
+    background-color: wheat;
+}
+
+q{
+    margin: 10px 50px 20px;
+    font-size: 160%;
+    font-style: italic;
+    background-color: gainsboro;
+    border-left: solid red;
+    border-width: 30px;
+    border-spacing: 30px;
+    width: 45%
+       
+}
+
+.good{
+    text-transform: capitalize;
+    color: green;
+}
+
+.bad{
+    text-transform: capitalize;
+    color: red;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+
+}
+
+.bon{
+    background-image: url(photo\ 1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+}
+
+.mauvais{
+    background-image: url(photo\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+    
+}
+
+.chat{
+    background-image: url(photo\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;   
+}
