@@ -5,8 +5,8 @@ body{
     margin: 5% 0;
     width: 90%; 
     background-position: bottom 50px right 100px;
-    background: url(chef-logo-vintage-emblem-cooking-600w-1778876054.webp) center/cover
-    
+    background-image: linear-gradient(0deg, rgba(239, 245, 212, 0.5) 0%, rgb(226, 194, 13) 100%), url(chef-logo-vintage-emblem-cooking-600w-1778876054.webp);
+    background-repeat: no-repeat;
     
    
 }
@@ -15,6 +15,7 @@ p{
     font-family: serif;
     font-size: medium;
     color: darkred;
+    
     
 }
 
@@ -30,7 +31,14 @@ th,td{
     border: 1px solid black;
     color: black;
     padding: 10px;
-    background-color: wheat;
+}
+table th {background-color: white;}
+
+table tr:nth-child(2n){
+background-color: white;
+}
+table tr:nth-child(2n+1){
+    background-color: grey;
 }
 
 q{
@@ -82,3 +90,9 @@ img{
     background-size: 25px;
     background-position: center;   
 }
+
+
+.gros{
+    font-weight: bolder;
+}
+
